@@ -10,5 +10,5 @@
 </p>
 
 <p>
-  <a href="/login/lskdjflkdfj">Login</a>
+  <a href="/login">Login</a>
 </p>

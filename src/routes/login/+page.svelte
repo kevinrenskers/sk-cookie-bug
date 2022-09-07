@@ -1,12 +1,7 @@
 <script lang="ts">
-  import { page } from "$app/stores";
   import { goto, invalidateAll } from "$app/navigation";
 
   async function login() {
-    const payload = {
-      token: $page.params.token,
-    };
-
     try {
       const res = await fetch("/auth/exchange-magic-token", { method: "POST" });
       const json = await res.json();
